@@ -1,0 +1,15 @@
+# Core CV / AI service dependencies
+opencv-python==4.10.0.84
+ultralytics==8.3.0        # YOLOv8 — person + PPE detection (Phase 2 / Phase 5)
+numpy==1.26.4
+scipy==1.13.1              # used by the tracker (Phase 3)
+
+# Service layer (AI service <-> Node backend, Phase 11)
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+requests==2.32.3
+pydantic==2.9.2
+
+# Utility
+python-dotenv==1.0.1

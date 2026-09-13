@@ -1,0 +1,42 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment files
+.env
+.env.local
+
+# Node dependencies
+node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Large media
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+
+# Generated snapshots
+snapshots/*.jpg
+snapshots/*.png
+snapshots/**/*.jpg
+snapshots/**/*.png
+snapshots/**/*.mp4
+snapshots/**/*.avi
+snapshots/**/*.mov
+
+# AI verification output
+ai-service/utils/verify_output/
+
+# Local MongoDB backup
+local_backup/
+
+# PyCharm
+.idea/
+
+# Logs / OS
+*.log
+.DS_Store
