@@ -9,7 +9,7 @@ import LiveAlerts from "./components/LiveAlerts";
 import SafetyAnalytics from "./components/SafetyAnalytics";
 import WorkerSafetyScore from "./components/WorkerSafetyScore";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api/safety-events`;
+const API_URL ="https://construction-safety-system-cvd2.onrender.com/api/safety-events";
 
 function App() {
   const [events, setEvents] = useState([]);
